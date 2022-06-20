@@ -1,0 +1,15 @@
+body {
+  background-color: rebeccapurple;
+}
+
+h1 {
+  color: white;
+ font-family: arial,"sans serif";
+  margin-left: 20px;
+}
+
+p {
+ color: white;
+ font-family: arial,"sans serif";
+ margin-left: 20px;
+}
