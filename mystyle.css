@@ -5,11 +5,17 @@ body {
 h1 {
   color: white;
  font-family: arial,"sans serif";
-  margin-left: 20px;
+  margin-left: 200px;
+}
+
+h2 {
+  color: white;
+ font-family: arial,"sans serif";
+  margin-left: 200px;
 }
 
 p {
  color: white;
  font-family: arial,"sans serif";
- margin-left: 20px;
+ margin-left: 200px;
 }
