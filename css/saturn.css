@@ -136,6 +136,7 @@ div {
     border: none;
     border-radius: 10px;
     overflow-y: scroll;
+    overflow-x: hidden;
     height: 196px;
     width: 200px;
     padding: none;
@@ -183,15 +184,29 @@ div {
     font-size: 18px;
 }
 
+/*  I'll be honest i really dont remember y i made this one
+    I'm too lazy to delete it though :( 
+*/
 #profile {
     background: transparent;
     border: none;
     border-radius: 10px;
-    width: 350px;
-    height: 400px;
-    margin-right: 30px;
-    margin-left: 10px;
-    padding: 10px;
+    height: 280px;
+}
+
+.box {
+    /* how many random classes are too many ??? */
+    background-image: linear-gradient( #2B193D, #7C2E5B);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: none;
+    padding: 5px;
+    width: 190px;
+    min-width: 100px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .bio {
@@ -210,29 +225,6 @@ div {
 
 .longtext {
     font-size: 16px;
-}
-
-.likes {
-    padding:10px;
-    margin-left: 10px;
-    margin-top: 15px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border: 3px solid rgb(255, 252, 95);
-    background-image: linear-gradient(to bottom, lightpink, lightyellow, powderblue);
-    width: 250px;
-    height: 250px;
-}
-
-.dislikes {
-    padding: 10px;
-    margin-left: 0px;
-    margin-top: 15px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background: black;
-    width: 250px;
-    height: 250px;
 }
 
 .time {
